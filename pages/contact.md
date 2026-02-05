@@ -1,0 +1,44 @@
+---
+layout: page
+title: Contact
+description: Get in touch with Softpath. Book a call or send us an email to discuss your marketing infrastructure, paid acquisition, or analytics challenges.
+permalink: /contact/
+---
+
+# Let's talk
+
+The best way to figure out if we can help is a conversation. No pitch deck, no pressure. We'll talk about what's going on in your marketing stack, where the problems are, and whether Softpath is the right fit.
+
+If it's not a fit, we'll tell you. If we know someone better suited, we'll make an introduction.
+
+---
+
+## Book a call
+
+30 minutes is usually enough to understand your situation and determine next steps.
+
+<div class="calendly-embed">
+  <!-- Calendly inline widget -->
+  <div class="calendly-inline-widget" data-url="https://calendly.com/softpath/discovery" style="min-width:320px;height:630px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+</div>
+
+---
+
+## Or just send an email
+
+If you'd rather start with an email, that works too.
+
+**Email:** [noah@softpath.co](mailto:noah@softpath.co)
+
+Include a bit about your company, what you're trying to solve, and any relevant context. We respond to everything within one business day.
+
+---
+
+## Other ways to connect
+
+<a href="https://linkedin.com/in/noahketner" class="btn btn-text" target="_blank" rel="noopener">
+  LinkedIn <span class="arrow">→</span>
+</a>
+
+We're most active on LinkedIn. Follow along for thoughts on marketing infrastructure, paid acquisition, and the gap between growth strategy and data reality.

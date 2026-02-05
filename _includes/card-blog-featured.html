@@ -1,0 +1,11 @@
+<article class="card card--blog card--featured">
+  <div class="card__content">
+    <h2 class="card__title">
+      <a href="{{ include.post.url }}">{{ include.post.title }}</a>
+    </h2>
+    <p class="card__description">{{ include.post.excerpt }}</p>
+    <div class="card__meta">
+      <time class="card__date">{{ include.post.date | date: "%B %d, %Y" }}</time>
+    </div>
+  </div>
+</article>

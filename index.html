@@ -1,0 +1,114 @@
+---
+layout: home
+title: Marketing Infrastructure & Paid Acquisition
+description: We fix marketing infrastructure and run paid acquisition you can actually measure. Martech audits, tracking implementation, and performance marketing for B2C and B2B2C companies.
+---
+
+{%- comment -%}
+HERO SECTION
+The headline is the hook. Body copy establishes the problem and positions Softpath as the solution.
+{%- endcomment -%}
+
+<section class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <h1 class="display hero__headline">
+          We fix marketing infrastructure and run acquisition you can actually measure.
+        </h1>
+        <p class="hero__subhead">
+          Softpath helps B2C and B2B2C companies connect ad spend to real business outcomes, not platform vanity metrics.
+        </p>
+        <p class="hero__body">
+          Most growth teams are flying blind. Tracking is broken, attribution is a mess, and nobody trusts the numbers in the dashboard. We fix the infrastructure first, then help you scale paid acquisition with confidence.
+        </p>
+        <div class="hero__actions">
+          <a href="/contact" class="btn btn-primary">Book a call</a>
+          <a href="/work" class="btn btn-text">
+            See our work <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero__accent"></div>
+    </div>
+  </div>
+</section>
+
+{%- comment -%}
+SERVICES SECTION
+Three cards matching the core service pillars. Descriptions emphasize outcomes over features.
+{%- endcomment -%}
+
+<section class="section">
+  <div class="container">
+    {% include section-header.html title="What We Do" %}
+    
+    <div class="services-grid">
+      {% include card-service.html 
+         icon="ph-plugs-connected" 
+         title="Martech & Tracking" 
+         description="Your tools should work together. We audit, fix, and implement the infrastructure that connects your marketing stack to real data. Segment, GTM, GA4, server-side tracking, and the integrations between them."
+      %}
+      
+      {% include card-service.html 
+         icon="ph-target" 
+         title="Paid Acquisition" 
+         description="Meta, Google, TikTok. We manage campaigns optimized to actual customer value, not in-platform ROAS. 13+ years managing spend from $1K to $1M+ monthly across B2C and B2B2C."
+      %}
+      
+      {% include card-service.html 
+         icon="ph-chart-line-up" 
+         title="Marketing Analytics" 
+         description="From attribution modeling to LTV analysis, we build measurement systems that tell you what's actually working. Dashboards people trust and metrics that drive decisions."
+      %}
+    </div>
+  </div>
+</section>
+
+{%- comment -%}
+WRITING SECTION
+Pulls from actual blog posts. Featured post gets prominent treatment.
+Content is the primary trust-building mechanism for the nurture path.
+{%- endcomment -%}
+
+<section class="section section--alt">
+  <div class="container">
+    {% include section-header.html title="Writing" %}
+    
+    <div class="blog-grid">
+      {% assign featured_post = site.posts | first %}
+      {% if featured_post %}
+        {% include card-blog-featured.html post=featured_post %}
+      {% endif %}
+      
+      <div class="blog-secondary-grid">
+        {% for post in site.posts offset:1 limit:2 %}
+          {% include card-blog.html post=post %}
+        {% endfor %}
+      </div>
+    </div>
+    
+    <div class="section-footer">
+      <a href="/blog" class="btn btn-text">
+        View all posts <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{%- comment -%}
+PROJECTS SECTION
+Side projects and tools. Demonstrates technical chops and provides value upfront.
+{%- endcomment -%}
+
+<section class="section">
+  <div class="container">
+    {% include section-header.html title="Projects" %}
+    
+    <div class="projects-grid">
+      {% for project in site.projects limit:4 %}
+        {% include card-project.html project=project %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
