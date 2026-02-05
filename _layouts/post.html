@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post__header">
+    <div class="post__meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %d, %Y" }}
+      </time>
+      <span class="post__reading-time">
+        {% assign words = content | number_of_words %}
+        {% assign minutes = words | divided_by: 200 %}
+        {% if minutes < 1 %}1{% else %}{{ minutes }}{% endif %} min read
+      </span>
+    </div>
+    <h1 class="post__title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post__content">
+    {{ content }}
+  </div>
+</article>

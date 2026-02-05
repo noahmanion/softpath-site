@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page">
+  <header class="page__header">
+    <h1 class="page__title">{{ page.title | remove: ' | Softpath' }}</h1>
+    {% if page.description %}
+      <p class="page__lead">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="page__content">
+    {{ content }}
+  </div>
+</div>
