@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Services | Softpath"
 permalink: /services/
 description: "Marketing infrastructure audits, martech implementation, paid acquisition management, and LTV modeling for B2C and B2B2C companies."

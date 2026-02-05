@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Contact | Softpath"
 permalink: /contact/
 description: "Book a call or email to discuss your marketing infrastructure and paid acquisition challenges."

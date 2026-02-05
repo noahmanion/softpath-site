@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Terms of Service | Softpath"
 permalink: /terms-of-service/
 description: "Softpath terms of service - the terms and conditions governing your use of our website and services."

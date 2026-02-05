@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "Built My Own Day Planner. The Code Was the Easy Part."
 description: "After rebuilding analytics for three companies, I realized why style guides matter more than anyone thinks. It's not about organization—it's about building systems that compound."
 date:   2026-02-05 05:01:54 -0500

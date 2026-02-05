@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "Build Chrome-Based Apps from Any Website to Stay Focused and Productive"
 date:   2025-06-26 05:01:54 -0500
 categories: cool stuff

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "I've Been Rebuilding Analytics Setups. Here's What I Learned."
 description: "After rebuilding analytics for three companies, I realized why style guides matter more than anyone thinks. It's not about organization—it's about building systems that compound."
 date:   2025-09-16 05:01:54 -0500

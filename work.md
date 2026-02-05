@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Work | Softpath"
 permalink: /work/
 description: "Selected work: DTC brands, subscription businesses, marketplaces, and B2B2C companies. Performance marketing, analytics, and martech."

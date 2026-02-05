@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Privacy Policy | Softpath"
 permalink: /privacy-policy/
 description: "Softpath privacy policy - how we collect, use, and protect your personal information."

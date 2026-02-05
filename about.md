@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "About | Softpath"
 permalink: /about/
 description: "13+ years in performance marketing, analytics, and marketing automation. I help growth teams stop guessing and start measuring."
