@@ -173,6 +173,15 @@ main { min-height: 60vh; }
 }
 .nav__link:hover, .nav__link[aria-current="page"] { color: var(--red-primary); }
 
+.nav__link--external {
+  background: var(--red-primary);
+  color: #FFFFFF;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.nav__link--external:hover { background: var(--red-dark); transform: translateY(-1px); }
+
 .header__menu-toggle { display: none; background: none; border: none; cursor: pointer; padding: var(--space-2); color: var(--text-primary); font-size: 24px; z-index: 200; }
 
 /* ================================================
